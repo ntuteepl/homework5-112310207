@@ -9,12 +9,11 @@
     if(min <= 800 ){
      tip=min *0.9;
     }
-    if(800 <= min <=1500 ){
-     tip=(min *0.9) *(double)0.09;
+    if(800 <= min && min<=1500 ){
+     tip=(min *0.9) *0.9;
     }
     if(1500<=min){
-     tip=((min *0.9) *(double)0.09) *(double)0.79;
+     tip=((min *0.9) *0.9) *0.79;
     }
-    printf("%fn",tip);
+    printf("%1.1f\n",tip);
 }
-1分
