@@ -6,8 +6,7 @@
   double f;
   float c;
    scanf("%f",&c) ;
-    f = (c*9/5) + 32;
-    f = round (f*10)/10;
+    f = (c*1.8)+ 32;
    printf("%1f\n",f);
     return 0;
 }
