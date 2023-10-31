@@ -7,6 +7,6 @@
   float c;
    scanf("%f",&c) ;
     f = (c*1.8)+ 32;
-   printf("%1f\n",f);
+   printf("%1.1f\n",f);
     return 0;
 }
