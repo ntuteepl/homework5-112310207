@@ -9,6 +9,9 @@
      float M_angle = M * 6;
      float H_angle = (H % 12) * 30 + M * 0.5;
       angle=(H_angle - M_angle);
+      if (H_angle < M_angle) {
+       angle=(M_angle - H_angle);
+}
       if (angle > 180) {
         angle = 360 - angle;
 }
